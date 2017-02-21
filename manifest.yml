@@ -1,0 +1,8 @@
+---
+applications:
+- name: shah-sentimental-and-emotion
+  memory: 512M
+  path: target/sentimental-and-emotion-server-1.0.0-SNAPSHOT.jar
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  domain: mybluemix.net
+  timeout: 60
